@@ -40,20 +40,22 @@ SketchupRequirements:
 SketchupSuggestions:
   Enabled: false
 
-
 Capybara:
   Enabled: false
-
 
 Gemspec/DevelopmentDependencies: # new in 1.44
   Enabled: true
 
-Gemspec/DeprecatedAttributeAssignment: # new in 1.10
+<% if RUBY_VERSION < '2.6' %>
+Gemspec/DateAssignment: # new in 1.10
   Enabled: true
+<% else %>
+Gemspec/DeprecatedAttributeAssignment: # new in 1.31
+  Enabled: true
+<% end %>
 
 Gemspec/RequireMFA: # new in 1.23
   Enabled: false
-
 
 Layout/ArrayAlignment:
   Exclude:
