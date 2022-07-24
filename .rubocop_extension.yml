@@ -1,0 +1,21 @@
+require:
+  - ./lib/rubocop-sketchup
+  - ./lib/rubocop/sketchup/formatter/extension_review
+
+AllCops:
+  DisabledByDefault: true
+
+SketchupDeprecations:
+  Enabled: true
+
+SketchupPerformance:
+  Enabled: true
+
+SketchupRequirements:
+  Enabled: true
+
+SketchupSuggestions:
+  Enabled: true
+
+SketchupBugs:
+  Enabled: true
