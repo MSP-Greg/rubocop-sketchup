@@ -2,7 +2,10 @@ plugins:
   - rubocop-performance
   - rubocop-rake
   - rubocop-rspec
+
+require:
   - rubocop-sketchup
+
 
 inherit_from: sketchup-style.yml
 
