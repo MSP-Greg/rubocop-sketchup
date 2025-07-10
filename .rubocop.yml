@@ -1,4 +1,5 @@
 plugins:
+  - rubocop-internal_affairs
   - rubocop-performance
   - rubocop-rake
   - rubocop-rspec
@@ -41,10 +42,6 @@ SketchupRequirements:
   Enabled: false
 
 SketchupSuggestions:
-  Enabled: false
-
-
-Capybara:
   Enabled: false
 
 
@@ -441,25 +438,6 @@ RSpec/RepeatedSubjectCall: # new in 2.27
   Enabled: true
 
 RSpec/SpecFilePathSuffix: # new in 2.24
-  Enabled: true
-
-
-RSpecRails/AvoidSetupHook: # new in 2.4
-  Enabled: false
-
-RSpecRails/HaveHttpStatus: # new in 2.12
-  Enabled: false
-
-RSpecRails/InferredSpecType: # new in 2.14
-  Enabled: false
-
-RSpecRails/MinitestAssertions: # new in 2.17
-  Enabled: false
-
-RSpecRails/TravelAround: # new in 2.19
-  Enabled: false
-
-RSpecRails/NegationBeValid: # new in 2.23
   Enabled: true
 
 
