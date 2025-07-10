@@ -378,6 +378,7 @@ RSpec/SpecFilePathFormat:
     RubyStdLibNamespace: ruby_stdlib_namespace
     SketchUp: sketchup
     SketchUpTargetRange: sketchup_target_range
+  Enabled: true
 
 RSpec/IdenticalEqualityAssertion: # new in 2.4
   Enabled: true
@@ -438,9 +439,6 @@ RSpec/RemoveConst: # new in 2.26
 
 RSpec/RepeatedSubjectCall: # new in 2.27
   Enabled: true
-
-RSpec/SpecFilePathFormat: # new in 2.24
-  Enabled: false # Not renaming all the files at this point.
 
 RSpec/SpecFilePathSuffix: # new in 2.24
   Enabled: true
