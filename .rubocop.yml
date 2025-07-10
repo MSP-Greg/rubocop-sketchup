@@ -1,4 +1,4 @@
-require:
+plugins:
   - rubocop-performance
   - rubocop-rake
   - rubocop-rspec
@@ -18,7 +18,7 @@ AllCops:
   DisplayCopNames: true
   DisplayStyleGuide: true
   ExtraDetails: true
-  TargetRubyVersion: 2.6
+  TargetRubyVersion: 2.7
 
 
 # Need to explicitly disable the SketchUp cops here because Rake tasks will
@@ -368,7 +368,7 @@ RSpec/ExampleLength:
 RSpec/ExcessiveDocstringSpacing: # new in 2.5
   Enabled: true
 
-RSpec/FilePath:
+RSpec/SpecFilePathFormat:
   CustomTransform:
     DynamicComponentInternals: dc_internals
     OpenSSL: openssl
