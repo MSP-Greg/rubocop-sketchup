@@ -7,7 +7,7 @@ gemspec
 group :test do
   gem 'rake', '~> 12.0', require: false
   gem 'rspec', '~> 3.13', require: false
-  gem 'rubocop-factory_bot, require: false
+  gem 'rubocop-factory_bot', require: false
   gem 'rubocop-performance', '~> 1.25.0', require: false
   gem 'rubocop-rake', '~> 0.7.1', require: false
   gem 'rubocop-rspec', require: false
